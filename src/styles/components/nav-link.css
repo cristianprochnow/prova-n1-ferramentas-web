@@ -1,0 +1,18 @@
+.nav-link {
+  text-decoration: none;
+  background-color: var(--white);
+  padding: 1.6rem 3.2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--red);
+  border-radius: .4rem;
+  transition: opacity .3s;
+}
+
+.nav-link:hover {
+  opacity: .9;
+}
+
+.nav-link + .nav-link {
+  margin-left: .8rem;
+}
