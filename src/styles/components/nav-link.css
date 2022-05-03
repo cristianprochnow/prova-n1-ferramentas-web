@@ -10,7 +10,7 @@
 }
 
 .nav-link:hover {
-  opacity: .9;
+  opacity: .8;
 }
 
 .nav-link + .nav-link {
