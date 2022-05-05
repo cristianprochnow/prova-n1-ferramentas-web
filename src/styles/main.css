@@ -55,13 +55,20 @@ footer p {
   width: 90%;
   max-width: 768px;
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 2fr 1fr;
   gap: 1.6rem;
   margin: 3.2rem auto;
 }
 
-main {
+main, aside {
   display: flex;
   flex-direction: column;
+}
+
+main {
   gap: 1.2rem;
+}
+
+aside {
+  gap: 1.6rem;
 }
