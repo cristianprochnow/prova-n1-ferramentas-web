@@ -1,0 +1,21 @@
+.article h1 {
+  font-size: 3.6rem;
+  line-height: 4.8rem;
+  margin-bottom: .8rem;
+}
+
+.article h3 {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  margin-bottom: .8rem;
+}
+
+.article p {
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  color: var(--gray);
+}
+
+.article + .article {
+  margin-top: 3.2rem;
+}

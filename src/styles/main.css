@@ -57,5 +57,11 @@ footer p {
   display: grid;
   grid-template-columns: 3fr 1fr;
   gap: 1.6rem;
-  margin: 1.6rem auto;
+  margin: 3.2rem auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
 }

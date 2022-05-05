@@ -1,10 +1,4 @@
-:root {
-  --red: #A83331;
-  --blue: #123454;
-  --white: #FFFFFF;
-  --black: #000000;
-  --gray: #C4C4C4;
-}
+@import url(./variables.css);
 
 * {
   margin: 0;
