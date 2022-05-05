@@ -1,0 +1,25 @@
+.comment div {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  margin-bottom: .8rem;
+}
+
+.comment img {
+  height: 7.2rem;
+}
+
+.comment h3 {
+  font-size: 1.6rem;
+}
+
+.comment p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: 500;
+  color: var(--gray);
+}
+
+.comment + .comment {
+  margin-top: 1.6rem;
+}

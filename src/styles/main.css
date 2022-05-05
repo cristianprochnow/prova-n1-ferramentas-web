@@ -1,5 +1,6 @@
 @import url(./components/nav-link.css);
 @import url(./components/article.css);
+@import url(./components/comment.css);
 
 header, footer {
   width: 100%;
@@ -20,7 +21,8 @@ footer {
 }
 
 footer div {
-  width: 60%;
+  width: 90%;
+  max-width: 768px;
   display: flex;
   align-items: center;
   justify-content: space-between;
